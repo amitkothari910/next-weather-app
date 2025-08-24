@@ -1,0 +1,20 @@
+node_modules/
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS/editor files
+.DS_Store
+*.swp
+
+# Env files (never commit secrets)
+.env*
+!.env.example
+
+# Vercel local state
+.vercel/
